@@ -8,39 +8,39 @@
 </head>
 
 <body onkeypress="manipularTeclado()">
+<div class="container">
     <table>
         <tr>
             <td colspan="6"><input type="text" id="display" value="0" disabled></td>
         </tr>
-        <tr>
+        <tr class="coluna">
             <td><input type="button" value="7" onclick="atualizarDisplay(this)" /></td>
             <td><input type="button" value="8" onclick="atualizarDisplay(this)" /></td>
             <td><input type="button" value="9" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="*" onclick="atualizarOperacao(this)" /></td>
+            <td class="direita"><input type="button" value="*" onclick="atualizarOperacao(this)" /></td>
         </tr>
         <tr>
             <td><input type="button" value="4" onclick="atualizarDisplay(this)" /></td>
             <td><input type="button" value="5" onclick="atualizarDisplay(this)" /></td>
             <td><input type="button" value="6" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="-" onclick="atualizarOperacao(this)" /></td>
+            <td class="direita"><input type="button" value="-" onclick="atualizarOperacao(this)" /></td>
         </tr>
         <tr>
             <td><input type="button" value="1" onclick="atualizarDisplay(this)" /></td>
             <td><input type="button" value="2" onclick="atualizarDisplay(this)" /></td>
             <td><input type="button" value="3" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="+" onclick="atualizarOperacao(this)" /></td>
+            <td class="direita"><input type="button" value="+" onclick="atualizarOperacao(this)" /></td>
         </tr>
         <tr>
-            <td><input type="button" value="C" onclick="limparDisplay()" /></td>
+            <td class="cima"><input type="button" value="C" onclick="limparDisplay()" /></td>
             <td><input type="button" value="0" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="=" onclick="calcularOperacao()" /></td>
-            <td><input type="button" value="/" onclick="atualizarOperacao(this)" /></td>
+            <td class="direita"><input type="button" value="=" onclick="calcularOperacao()" /></td>
+            <td class="direita"><input type="button" value="/" onclick="atualizarOperacao(this)" /></td>
         </tr>
     </table>
-
+</div>
     <script src="js/calc_functions.js"></script>
-    <img src="img/dog.jpg" alt="Dog" />
-
+    
 </body>
 
 </html>
