@@ -1,1 +1,14 @@
-body { background-color: lightblue; }
+body { background-color: white;
+}
+
+tr{
+    text-align: center;
+    block-size: 50px;
+    size: 50px;
+}
+input{
+    padding: 25px;
+    background-color: #f1f3f4;
+    color: #202124;
+    
+}
