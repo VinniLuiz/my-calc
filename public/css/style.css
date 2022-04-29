@@ -7,11 +7,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.calc{
+    background-color: darkgray;
+    border-radius: 20px;
+    padding: 20px;
+}
 tr{
     text-align: center;
     block-size: 50px;
     size: 50px;
+}
+.tela-bg{
+    padding: 3px;
+    background-color: aliceblue;
 }
 input{
     padding: 30px;
@@ -19,13 +27,16 @@ input{
     color: #1C1C1C;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
-
+    border-radius: 20%;
 }
 .container{
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.tela{
+    border-radius: 0;
+    border: none;
 }
