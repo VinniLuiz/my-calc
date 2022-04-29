@@ -9,9 +9,10 @@
 
 <body onkeypress="manipularTeclado()">
 <div class="container">
+    <div class="calc">
     <table>
         <tr>
-            <td colspan="6"><input type="text" id="display" value="0" disabled></td>
+            <td class="tela-bg" colspan="6"><input class="tela" type="text" id="display" value="0" disabled></td>
         </tr>
         <tr class="coluna">
             <td><input type="button" value="7" onclick="atualizarDisplay(this)" /></td>
@@ -38,6 +39,7 @@
             <td><input type="button" value="/" onclick="atualizarOperacao(this)" /></td>
         </tr>
     </table>
+    </div>
 </div>
     <script src="js/calc_functions.js"></script>
     
