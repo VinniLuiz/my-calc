@@ -8,9 +8,9 @@ body {
     background-size: cover;
 }
 .calc{
-    background-color: darkgray;
+    background-image: url(/img/background-calc.jpg);
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
 }
 tr{
     text-align: center;
@@ -19,15 +19,18 @@ tr{
 }
 .tela-bg{
     padding: 3px;
-    background-color: aliceblue;
+    background-color: transparent;
 }
 input{
     padding: 30px;
-    background-color: aliceblue;
+    background-color: grey;
     color: #1C1C1C;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 20%;
+    font-size: larger;
+    font-weight: bolder;
+    opacity: 0.8;
 }
 .container{
     width: 100vw;
@@ -39,4 +42,14 @@ input{
 .tela{
     border-radius: 0;
     border: none;
+    opacity: 0.8;
+    text-align: center;
+}
+.operador{
+    background-color: slategray;
+    opacity: 0.8;
+}
+.resultado{
+    background-color: deepskyblue;
+    opacity: 0.8;
 }
