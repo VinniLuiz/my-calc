@@ -30,3 +30,21 @@ function manipularTeclado(){
     if(/[0-9]/.test(event.key))
         atualizarDisplay({value: event.key});
 }
+
+function raizQuadrada(){
+    const numero = document.getElementById('display');
+    const resultado = Math.sqrt(numero.value);
+    display.value = resultado;
+}
+
+function exponenciaçaoQuadrada(){
+    const num = document.getElementById('display');
+    resultado = Math.pow(num.value, 2);
+    display.value = resultado;
+}
+
+function exponenciaçaoCubica(){
+    const num = document.getElementById('display');
+    resultado = Math.pow(num.value, 3);
+    display.value = resultado;
+}
