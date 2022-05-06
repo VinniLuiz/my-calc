@@ -36,3 +36,15 @@ function raizQuadrada(){
     const resultado = Math.sqrt(numero.value);
     display.value = resultado;
 }
+
+function exponenciaçaoQuadrada(){
+    const num = document.getElementById('display');
+    resultado = Math.pow(num.value, 2);
+    display.value = resultado;
+}
+
+function exponenciaçaoCubica(){
+    const num = document.getElementById('display');
+    resultado = Math.pow(num.value, 3);
+    display.value = resultado;
+}
