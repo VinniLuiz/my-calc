@@ -8,7 +8,8 @@ body {
     background-size: cover;
 }
 .calc{
-    background-image: url(/img/background-calc.jpg);
+    opacity: 0.9;
+    background-position: center;
     border-radius: 20px;
     padding: 30px;
 }
@@ -48,6 +49,12 @@ input{
 .operador{
     background-color: slategray;
     opacity: 0.8;
+    padding: 30px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20%;
+    font-size: larger;
+    font-weight: bolder;
 }
 .resultado{
     background-color: deepskyblue;
