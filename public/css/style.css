@@ -1,62 +1,66 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-    background-image: url(/img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(/img/background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .calc{
-    opacity: 0.9;
-    background-position: center;
-    border-radius: 20px;
-    padding: 30px;
+  opacity: 0.9;
+  background-position: center;
+  border-radius: 20px;
+  padding: 30px;
 }
 tr{
-    text-align: center;
-    block-size: 50px;
-    size: 50px;
+  text-align: center;
+  block-size: 50px;
+  size: 50px;
 }
 .tela-bg{
-    padding: 3px;
-    background-color: transparent;
+  padding: 3px;
+  background-color: transparent;
 }
 input{
-    padding: 30px;
-    background-color: grey;
-    color: #1C1C1C;
-    cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 20%;
-    font-size: larger;
-    font-weight: bolder;
-    opacity: 0.8;
+  padding: 30px;
+  background-color: aliceblue;
+  color: #1C1C1C;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 20%;
+  font-size: larger;
+  font-weight: bolder;
+  opacity: 0.8;
 }
 .container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .tela{
-    border-radius: 0;
-    border: none;
-    opacity: 0.8;
-    text-align: center;
+  border-radius: 0;
+  border: none;
+  opacity: 0.8;
+  text-align: center;
+  color: red;
 }
 .operador{
-    background-color: slategray;
-    opacity: 0.8;
-    padding: 30px;
-    cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 20%;
-    font-size: larger;
-    font-weight: bolder;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 30px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 20%;
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+  font-weight: bolder;
+  
 }
 .resultado{
-    background-color: deepskyblue;
-    opacity: 0.8;
+  background-color: deepskyblue;
+  opacity: 0.8;
 }
