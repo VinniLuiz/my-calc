@@ -1,27 +1,38 @@
+/*Margens Iniciais*/
 *{
   margin: 0;
   padding: 0;
 }
+
+/*Background da página*/
 body {
   background-image: url(/img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*Tamanho da calculadora*/
 .calc{
   opacity: 0.9;
   background-position: center;
   border-radius: 20px;
   padding: 30px;
 }
+
+/*Tamnho das linhas da tabela*/
 tr{
   text-align: center;
   block-size: 50px;
   size: 50px;
 }
+
+/*background da tela da calculadora*/
 .tela-bg{
   padding: 3px;
   background-color: transparent;
 }
+
+/*Alterando botões do 0-9*/
 input{
   padding: 30px;
   background-color: aliceblue;
@@ -33,6 +44,8 @@ input{
   font-weight: bolder;
   opacity: 0.8;
 }
+
+/* Tamanho e posição da div que está a calculadora */
 .container{
   width: 100vw;
   height: 100vh;
@@ -40,6 +53,8 @@ input{
   justify-content: center;
   align-items: center;
 }
+
+/* Alterando a tela da calculadora */
 .tela{
   border-radius: 20px;
   border: none;
@@ -47,6 +62,8 @@ input{
   text-align: center;
   color: black;
 }
+
+/* Alterando botões dos operadores */
 .operador{
   background-color: gray;
   opacity: 0.8;
@@ -58,14 +75,34 @@ input{
   font-weight: bolder;
   color: whitesmoke;
   font-weight: bolder;
-  
 }
+
+/* alterando botão = */
 .resultado{
   background-color: deepskyblue;
   opacity: 0.8;
 }
+
+/* alterando botão C */
 .limpar{
   background-color: indianred;
   border-radius: 20%;
   opacity: 0.8;
+}
+
+/* Passar o Mouse por cima */
+.limpar:hover{
+  background-color: darkred;
+}
+.operador:hover{
+  background-color: #1C1C1C;
+}
+input:hover{
+  background-color: slategray;
+}
+.resultado:hover{
+  background-color: blue;
+}
+.tela:hover{
+  background-color: aliceblue;
 }
