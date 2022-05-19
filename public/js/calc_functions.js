@@ -1,12 +1,21 @@
+var expressao = "";
+
 function atualizarDisplay(btn){
     const display = document.getElementById('display');
     if(display.value.length === 9) return;
-    if(display.value === '0') display.value = btn.value;
-    else display.value += btn.value;
+    if(display.value === '0'){
+       display.value = btn.value;
+       expressao += btn.value;
+    }
+    else{
+       display.value += btn.value;
+       expressao += btn.value;
+    }
 }
 
 function limparDisplay(){
     document.getElementById('display').value = '0';
+    expressao = "";
 }
 
 var operador = ''
@@ -20,10 +29,7 @@ function atualizarOperacao(btn){
 
 function calcularOperacao(){
     const display = document.getElementById('display');
-    const valor2 = Number(display.value);
-    valor1 = eval(valor1+operador+valor2);
-    display.value = valor1;
-    operador = '';
+    display.value = eval(expressao)
 }       
 
 function manipularTeclado(){
